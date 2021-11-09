@@ -1,0 +1,37 @@
+{
+    "id": "06e1829d-9f6d-4db9-ebc3-0ecac2aa926b",
+    "author": "",
+    "widgets": [
+        {
+            "id": "Lost_Found_Trends",
+            "name": "Lost_Found_Trends",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "Lost_Found_TrendsLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "Lost_Found_TrendsLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "Lost_Found_TrendsLink",
+            "title": "Lost_Found_Trends"
+        }
+    ]
+}

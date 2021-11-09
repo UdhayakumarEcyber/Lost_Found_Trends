@@ -1,0 +1,158 @@
+
+.lost_found-widget{
+
+.cafeteria-top-options.found-lost-top-options {
+    ul {
+      display: inline-flex;
+      li {
+        display: inline-block;
+        height: 20px;
+        width: 66px;
+        padding: 2px 0px;
+        border-radius: 12px;
+        cursor: pointer;
+        a {
+          background: none;
+          color: #424242;
+          padding: 0px 14px;
+          font-size: 10px;
+          outline: none;
+          font-weight: 600;
+          .meeting_active {
+            background-color: #d4fdc1;
+            color: #000;
+            padding-left: 30px;
+            position: relative;
+            border-radius: 12px;
+          }
+        }
+      }
+    }
+  }
+  .cafeteria_utilization-cont {
+    display: inline-block;
+    width: 100%;
+    .cafeteria_utilization-cont-top {
+      display: inline-block;
+      width: 100%;
+      .cafeteria_utilization-list {
+        display: inline-block;
+        margin-top: -9px;
+        margin-left: -0.7em;
+        width: 100%;
+        ul {
+          display: inline-flex;
+          width: 100%;
+          li {
+            display: inline-flex;
+            margin: 0 2%;
+            .user-icon {
+              display: inline-block;
+              background-position: 0 0;
+              background-repeat: no-repeat;
+              width: 2.4em;
+              height: 2.1em;
+              background-size: contain;
+              background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20.65" height="14.455" viewBox="0 0 20.65 14.455"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23433dd9;%7D%3C/style%3E%3C/defs%3E%3Cg transform="translate(-467 -793)"%3E%3Cpath class="a" d="M17.971,14.728a2.581,2.581,0,1,0-2.581-2.581A2.573,2.573,0,0,0,17.971,14.728ZM10.228,13.7a3.1,3.1,0,1,0-3.1-3.1A3.085,3.085,0,0,0,10.228,13.7Zm7.744,3.1c-1.889,0-5.679.95-5.679,2.839v2.323H23.65V19.632C23.65,17.743,19.861,16.793,17.971,16.793ZM10.228,15.76C7.822,15.76,3,16.968,3,19.374v2.581h7.228V19.632a4.07,4.07,0,0,1,2.447-3.583A12.683,12.683,0,0,0,10.228,15.76Z" transform="translate(464 785.5)"/%3E%3C/g%3E%3C/svg%3E');
+            }
+            h4 {
+              display: inline-block;
+              font-size: 17px;
+              line-height: 0.8em;
+              margin-left: 10px;
+              margin-top: 0;
+              width: 100%;
+              span {
+                display: inline-block;
+                font-size: 10px;
+                line-height: 10px;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .cafeteria_utilization-list.parking_utilization-list {
+    ul {
+      li:first-child .user-icon {
+        background-image: url(https://static.iviva.com/images/Adani_UXP/blue-user-jeep2.png);
+      }
+      li:nth-child(2) .user-icon {
+        background-image: url(https://static.iviva.com/images/Adani_UXP/emp-parking.png);
+      }
+      li:nth-child(3) .user-icon {
+        background-image: url(https://static.iviva.com/images/Adani_UXP/m-blue-jeep.png);
+      }
+      li:nth-child(4) .user-icon {
+        margin-top: 0px;
+        background-image: url(https://static.iviva.com/images/Adani_UXP/double-jeep.png);
+      }
+    }
+  }
+  // Cafeteria Utilization End
+  
+.cafeteria_utilization-cont {
+    display: inline-block;
+    width: 100%;
+    .cafeteria_utilization-cont-top {
+      display: inline-block;
+      width: 100%;
+      .cafeteria_utilization-list {
+        display: inline-block;
+        margin-top: -9px;
+        margin-left: -0.7em;
+        width: 100%;
+        ul {
+          display: inline-flex;
+          width: 100%;
+          li {
+            display: inline-flex;
+            margin: 0 2%;
+            .user-icon {
+              display: inline-block;
+              background-position: 0 0;
+              background-repeat: no-repeat;
+              width: 2.4em;
+              height: 2.1em;
+              background-size: contain;
+              background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20.65" height="14.455" viewBox="0 0 20.65 14.455"%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23433dd9;%7D%3C/style%3E%3C/defs%3E%3Cg transform="translate(-467 -793)"%3E%3Cpath class="a" d="M17.971,14.728a2.581,2.581,0,1,0-2.581-2.581A2.573,2.573,0,0,0,17.971,14.728ZM10.228,13.7a3.1,3.1,0,1,0-3.1-3.1A3.085,3.085,0,0,0,10.228,13.7Zm7.744,3.1c-1.889,0-5.679.95-5.679,2.839v2.323H23.65V19.632C23.65,17.743,19.861,16.793,17.971,16.793ZM10.228,15.76C7.822,15.76,3,16.968,3,19.374v2.581h7.228V19.632a4.07,4.07,0,0,1,2.447-3.583A12.683,12.683,0,0,0,10.228,15.76Z" transform="translate(464 785.5)"/%3E%3C/g%3E%3C/svg%3E');
+            }
+            h4 {
+              display: inline-block;
+              font-size: 17px;
+              line-height: 0.8em;
+              margin-left: 10px;
+              margin-top: 0;
+              width: 100%;
+              span {
+                display: inline-block;
+                font-size: 10px;
+                line-height: 10px;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .cafeteria_utilization-list.parking_utilization-list {
+    ul {
+      li:first-child .user-icon {
+        background-image: url(https://static.iviva.com/images/uxp-generic-widgets/bag.png);
+      }
+      li:nth-child(2) .user-icon {
+        background-image: url(https://static.iviva.com/images/uxp-generic-widgets/mobile.png);
+      }
+      li:nth-child(3) .user-icon {
+        background-image: url(https://static.iviva.com/images/uxp-generic-widgets/wallet.png);
+      }
+      li:nth-child(4) .user-icon {
+        margin-top: 0px;
+        background-image: url(https://static.iviva.com/images/uxp-generic-widgets/key.png);
+      }
+    }
+  }
+}

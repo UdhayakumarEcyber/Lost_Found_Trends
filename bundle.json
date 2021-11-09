@@ -1,0 +1,22 @@
+{
+    "id": "54add98d-3856-409b-edf1-d795f6ceb56c",
+    "author": "Eutech",
+    "widgets": [
+        {
+            "id": "Lost_Found_Trends",
+            "name": "Lost_Found_Trends",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
